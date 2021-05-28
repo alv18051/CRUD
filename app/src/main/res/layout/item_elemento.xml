@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:andoid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    andoid:layout_width="match_parent"
+    andoid:layout_height="100dp"
+    andoid:orientation="vertical"
+    andoid:layout_margin="8dp"  >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        andoid:layout_width="match_parent"
+        andoid:layout_height="221dp">
+
+        <LinearLayout
+            andoid:layout_width="263dp"
+            andoid:layout_height="100dp"
+            andoid:layout_marginBottom="4dp"
+            andoid:gravity="center_vertical"
+            andoid:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="66dp">
+
+        </LinearLayout>
+
+        <TextView
+            andoid:id="@+id/txtDescripcion"
+            andoid:layout_width="match_parent"
+            andoid:layout_height="wrap_content"
+            andoid:textColor="#52000000"
+            andoid:textSize="14sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <TextView
+            andoid:id="@+id/txtTitulo"
+            andoid:layout_width="match_parent"
+            andoid:layout_height="wrap_content"
+            andoid:textColor="@android:color/black"
+            andoid:textSize="16sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="-1dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
